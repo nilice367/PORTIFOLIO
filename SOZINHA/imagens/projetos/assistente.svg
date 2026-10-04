@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220">
+  <rect width="320" height="220" rx="12" fill="#241a20"/>
+  <rect x="34" y="30" width="252" height="160" rx="10" fill="#1a1317" stroke="#3a2a33" stroke-width="2"/>
+  <circle cx="52" cy="46" r="5" fill="#f4a7b9"/><circle cx="68" cy="46" r="5" fill="#3a2a33"/><circle cx="84" cy="46" r="5" fill="#3a2a33"/>
+  <text x="52" y="88" font-family="monospace" font-size="15" fill="#f4a7b9">&gt; abrir navegador</text>
+  <text x="52" y="116" font-family="monospace" font-size="15" fill="#b9a5ae">&gt; tocar música</text>
+  <text x="52" y="144" font-family="monospace" font-size="15" fill="#b9a5ae">&gt; pesquisar...</text>
+  <rect x="52" y="158" width="10" height="16" fill="#f4a7b9"/>
+</svg>

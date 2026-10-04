@@ -1,0 +1,400 @@
+/* ===== BASE ===== */
+body {
+    background-color: #0d0b0c;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+
+/* ===== CABEÇALHO ===== */
+.TOPONOME {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #2e2629; 
+    padding: 20px 60px;
+
+}
+
+.NAVEGACAO {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.NAVEGACAO a {
+    text-decoration: none;
+    color: white;
+}
+
+.NAVEGACAO :hover {
+
+    color: #F4A7B9;
+    border-bottom: 3px solid #F4A7B9;
+
+}
+
+/* ===== APRESENTAÇÃO ===== */
+.CABEÇALHO {
+    display: flex;
+    padding: 0 60px;
+    justify-content: space-between;
+    align-items: center;
+    background: #0D0B0C;
+background: linear-gradient(360deg, rgba(13, 11, 12, 0) 0%, rgba(244, 167, 185, 0.377) 100%);
+}
+
+.OLAEUSOU {
+    
+    display: inline-block;
+    border: 1px solid #F4A7B9;
+    border-radius: 23px;
+    padding: 6px 16px;
+    margin-top: 50px;
+
+}
+
+.NOME {
+    margin-top: -20px;
+    font-size: 50px;
+    font-weight: 500;
+    max-width: 420px;/* ===== tamanho max ===== */
+
+}
+
+.estudante {
+    font-size: 17px;
+
+}
+
+.INTRO {
+    color: #b9adb2;
+    max-width: 420px;
+}
+
+.BOTAOPROJETOS {
+    text-decoration: none;
+    font-weight: 400;
+    display: inline-block;
+    color: #0d0b0c;
+    background-color: #F4A7B9;
+    border-radius: 30px;
+    padding: 12px 24px;
+}
+
+.BOTAOCONTATO {
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    border: #F4A7B9 solid 1px;
+    border-radius: 30px;
+    padding: 12px 24px;
+
+}
+
+
+.REDES {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+     
+}
+
+.REDES img {
+    width: 28px;
+    
+}
+
+ /*-- ===== FOTO =====*/
+.FOTO {
+    width: 340px;
+    border: 2px solid #F4A7B9;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    
+
+}
+
+.FOTOCAIXA {
+    position: relative;    
+    padding: 0px 80px;
+}
+
+.BORBOLETA {
+    position: absolute;
+    width: 80px;
+    top: -10px;
+    right: 70px
+}
+
+
+/* ===== SOBRE MIM LETRAS ===== */
+
+.SOBREMIM h2 {
+    font-weight: 500px;
+}
+
+.SOBREMIM p{
+    line-height: 1.4;
+    color: #b9adb2;
+}
+
+/* ===== SOBRE MIM ===== */
+
+.SOBREMIM {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    border-top: 1px solid #2e2629;
+    padding-top: 50px; 
+    padding: 50px 100px;
+}
+
+.SOBREMIM img {
+    width: 115px;
+    border-radius: 12px;
+    background-color: #2e2629;
+    padding: 10px;
+}
+
+
+.CARD {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: #2e26297e;
+    border-radius: 12px;
+    max-width: 670px;
+    padding: 15px 30px;
+}
+
+/*======== LISTA SOBRE MIM ========*/
+
+.SOBREMIM ul {
+    
+    border-left: 1px solid #2e2629;
+    padding-left: 45px;
+    margin-left: auto;
+    
+}
+
+.SOBREMIM li {
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icone img {
+    width: 20px;
+    background: none;
+    padding: 12px;
+}
+
+
+/* ===== OLIMPIADA  ===== */
+
+.TROFEU {
+    background: #0D0B0C;
+    padding: 0px 20px;
+    gap: 20px;
+    background: linear-gradient(280deg, rgba(13, 11, 12, 0) 0%, rgba(244, 167, 185, 0.219) 100%);
+    border: 1px solid #F4A7B9;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+
+}
+
+.TROFEU img {
+    width: 50px;
+    padding: 20px;    
+
+}
+
+.TROFEU h2 {
+    color: #F4A7B9;
+    margin-bottom: 6px;
+
+}
+
+
+/*=========HABILIDADES===========*/
+
+.HABILIDADES {
+    margin: 0px 40px;
+    margin-top: 60px;
+}
+
+.HABILIDADES h2 {
+    font-size: 30px;
+    margin-left: 45px;
+}
+
+.HABILIDADES ul {
+    display: flex;
+    flex-wrap: wrap; /* pula pra linha de baixo quando não cabe */
+    border: #b9adb2;
+    border-radius: 50px;
+}
+
+
+
+.HABILIDADES li {
+    border: 1px solid #b9adb2;
+    border-radius: 50px;
+    list-style: none;
+    margin: 5px;
+    padding: 10px 30px;
+}
+
+
+/* ===== PROJETOS ===== */
+
+.CAIXA {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+
+.PROJETOS {
+    padding: 0px 40px;
+}
+
+
+.PROJETOS h2{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 45px;
+}
+
+.PROJETOS p {
+    margin-top: -15px;
+}
+
+
+.finalista {
+    font-size: 13px;
+    padding: 3px 7px;
+    border: 1px solid #F4A7B9;
+    background-color: #f4a7b92f;
+    border-radius: 30px;
+    color: #F4A7B9;
+
+}
+
+.PROJETOSCARTAO img {
+    width: 45%;
+    border-radius: 8px;
+
+}
+
+.PROJETOSCARTAO {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #2e26294d;
+    border-radius: 20px; 
+    max-height: 340px;
+    
+}
+
+/* ===== CONTATO ===== */
+
+
+.ENTRECONTATO {
+    border-top: 1px solid #2e2629;
+    margin-top: 40px;
+
+}
+
+.ENTRECONTATO h2 {
+    color: #F4A7B9;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 80px;
+
+}
+
+.ENTRECONTATO p {
+    margin-top: -17px;
+    margin-left: 80px;
+
+}
+
+.CONTATO {
+    list-style: none;
+    margin-top: 20px;
+    gap: 20px;
+    padding-bottom: 30px;
+    padding: 0px 30px;
+    margin-left: 40px;
+}
+
+.CONTATO li{
+    padding: 5px;
+    display: flex;
+    margin: 10px;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.CONTATO img{
+    width: 18px;
+}
+
+.CONTATO a {
+    text-decoration: none;
+    color: white;
+}
+
+.CONTATO :hover {
+    color: #F4A7B9;
+    text-decoration: none;
+}
+
+
+/* ===== RESPONSIVO===== */
+@media (max-width: 768px) {
+
+    /* lado a lado vira um embaixo do outro */
+    .TOPONOME, .SOBREMIM, .CARD, .PROJETOSCARTAO {
+        flex-direction: column;
+        max-height: none; /* deixa o cartão crescer */
+    }
+
+    /* foto em cima do texto */
+    .CABEÇALHO {
+        flex-direction: column-reverse;
+    }
+
+    /* menos espaço nas laterais */
+    .TOPONOME, .CABEÇALHO, .SOBREMIM, .PROJETOS, .FOTOCAIXA {
+        padding: 16px;
+    }
+
+    .TROFEU, .HABILIDADES {
+        margin: 20px 16px;
+    }
+
+    /* coisas menores */
+    .NAVEGACAO { gap: 16px; padding: 0; }
+    .NOME { font-size: 36px; }
+    .FOTO { width: 220px; }
+    .PROJETOSCARTAO img { width: 100%; }
+
+    /* projetos em 1 coluna */
+    .CAIXA { grid-template-columns: 1fr; }
+
+    /* lista do Sobre mim sem a linha do lado */
+    .SOBREMIM ul { margin-left: 0; border-left: none; }
+}

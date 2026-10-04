@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolio da mais mais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+  <!-- ===== CABEÇALHO ===== -->
+<header class="TOPONOME">
+    <div style="display: flex; gap: 15px;">
+          <img src="imagens/icones/brilho.svg" alt="" style="width: 30px;">
+  <h1 style="font-size: 20px;">Ana Alice</h1>
+    </div>
+<nav>
+    <div>
+    <ul class="NAVEGACAO">
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#Contato">Contato</a></li>
+    </ul>
+    </div>
+</nav>
+</header>
+
+  <!-- ===== MEIO DA PÁGINA ===== -->
+<main>
+    <section class="CABEÇALHO">
+        <div>
+        <p class="OLAEUSOU">Olá, eu sou</p>
+
+        <h1 class="NOME"><span style="color: #F4A7B9;"> Ana Alice</span> de Queiroz Oliveira</h1>
+        <p class="estudante">Estudante de Análise e Desenvolvimento de Sistemas</p>
+        <p class="INTRO">
+            Sou apaixonada por tecnologia e estou sempre em busca de aprender coisas novas.
+            Aqui você conhece um pouco sobre mim, meus projetos e minhas habilidades.</p>
+        <a class="BOTAOPROJETOS" href="#projetos">Ver projetos</a>
+        <a class="BOTAOCONTATO" href="#Contato">Entrar em contato</a>
+        <div class="REDES">
+        <img src="imagens/icones/github.svg" alt="github">
+        <img src="imagens/icones/linkedin.svg" alt="linkedin">
+        <a href="mailto:queirozoliveiraanaalice@gmailcom." target="_blank">
+            <img src="imagens/icones/email.svg" alt="email">
+        </a>
+
+        </div>
+        </div>
+
+ <!-- ===== FOTO ===== -->
+        <div class="FOTOCAIXA">
+        <img class="FOTO" src="imagens/foto.jpg" alt="foto da mais mais linda">
+        <img class="BORBOLETA" src="imagens/borboleta.svg" alt="borboletinha flop">
+        </div>   
+    </section>
+
+ <!-- ===== SOBRE MIM ===== -->
+    <section class="SOBREMIM" id="Sobre">
+    <div class="CARD">
+        <img src="imagens/laco.svg" alt="laço rosa">
+        <div>
+         <h2 style="color: #F4A7B9;">Sobre mim</h2>
+         <p style="color: b9adb2;">
+            Olá! Meu nome é Ana Alice e sou estudante de Análise e Desenvolvimento de Sistemas na UNINASSAU.
+            Gosto de aprender, resolver problemas e explorar o mundo da tecnologia.
+            Tenho interesse em desenvolvimento web, suporte técnico, design de interfaces e outras oportunidades na área de TI.
+         </p>
+        </div>
+    </div>
+        <ul class="icone">
+            <li><img src="imagens/icones/local.svg">Fortaleza - CE</li>
+            <li><img src="imagens/icones/faculdade.svg">UNINASSAU</li>
+            <li><img src="imagens/icones/codigo.svg">Análise e Desenvolvimentode Sistemas</li>
+            <li><img src="imagens/icones/calendario.svg">Previsão de conclusão: 2028</li>
+        </ul>
+
+    </section>
+
+<!-- ===== CHATBOT DA OLIMPIADA===== -->
+    <section class="TROFEU" id="trofeu">
+        <div>
+            <img src="imagens/icones/trofeu.svg">
+        </div>
+        <div>       
+            <h2>Finalista da Olimpíada Estadual de Educação Fiscal do Ceará</h2>
+            <p>Fui finalista com a <b>Fernanda</b>, um chatbot que ensina educação fiscal de um jeito 
+                simples: o que são impostos, para onde vai o dinheiro e por que pedir nota fiscal.</p>
+        </div>
+
+    </section>
+
+<!-- ===== HABILIDADES===== -->
+
+    <section id="habilidades">
+        <div class="HABILIDADES">
+            <h2 style="color: #F4A7B9;">Minhas habilidades</h1> 
+            <ul>
+                <li>
+                    HTML
+                </li>
+                <li>
+                    CSS
+                </li>
+                <li>
+                    Python
+                </li>
+                <li>
+                    Figma
+                </li>
+                <li>
+                    Excel
+                </li>
+                <li>
+                    Organização
+                </li>
+                <li>
+                    Proatividade
+                </li>
+                <li>
+                    Trabalho em equipe
+                </li>
+                <li>
+                    Organização
+                </li>
+            </ul>
+        </div>
+    </section>
+
+<!-- ===== PTOJETOS===== -->
+
+    <section class="PROJETOS" id="projetos">
+        <div>
+            <h2 style="color: #F4A7B9;">Meus Projetos</h2>
+        </div>
+
+        <div class="CAIXA">
+
+            <div class="PROJETOSCARTAO">
+                <img src="imagens/projetos/fernanda.svg">
+                <div>
+                    <span class="finalista">Finalista Estadual</span>
+                    <h3>Fernanda, chatbot de educação fiscal</h3>
+                    <p>Chatbot criado para a Olimpíada Estadual de
+                    Educação Fiscal do Ceará, que explica impostos e cidadania fiscal.</p>
+                </div>
+            </div>
+
+            <div class="PROJETOSCARTAO">
+                <img src="imagens/projetos/chatbot.svg">
+                <div>
+                    <h3>Chatbot de apoio emocional</h3>
+                    <p>Desenvolvido para um trabalho escolar da área da saúde e hospedado no Telegram.</p>
+                </div>
+            </div>
+
+            <div class="PROJETOSCARTAO">
+                <img src="imagens/projetos/assistente.svg">
+                <div>
+                    <h3>Assistente Virtual</h3>
+                    <p>Projeto pessoal que faz pesquisas, busca músicas e abre o navegador e outros programas por comando.</p>
+                </div>
+            </div>
+
+            <div class="PROJETOSCARTAO">
+                <img src="imagens/projetos/figma.svg">
+                <div>
+                    <h3>Projetos no Figma</h3>
+                    <p>Crio telas e protótipos no Figma antes de programar, pensando no visual e na experiência de quem usa.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+</main>
+
+  <!-- ===== RODAPÉ ===== -->
+<footer>
+<section id="Contato">
+    <div class="ENTRECONTATO">
+        <h2>Entre em contato</h2>
+        <p>Fique à vontade para me enviar uma mensagem!</p>
+    </div>
+
+        <ul class="CONTATO">
+            <li><img src="imagens/icones/email.svg"><a href="mailto:queirozoliveiraanaalice@gmailcom." target="_blank">queirozoliveiraanaalice@gmail.com</li>
+            <li><img src="imagens/icones/telefone.svg"><a href="https://wa.me/55981698696" target="_blank">(85) 98169-8696</li>
+            <li><img src="imagens/icones/local.svg"><a href="https://www.google.com/maps/place/Fortaleza+-+CE/@-3.7933146,-38.5196154,12z/data=!3m1!4b1!4m6!3m5!1s0x7c74c3f464c783f:0x4661c60a0c6b37ca!8m2!3d-3.7327203!4d-38.5270134!16zL20vMDJfOW4?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Fortaleza-CE></li>
+</div>        
+        </ul>
+</section>
+</footer>
+  
+</body>
+</html>
